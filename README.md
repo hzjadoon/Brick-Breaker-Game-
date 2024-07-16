@@ -1,6 +1,26 @@
 # Brick Breaker Game
 
-Welcome to the Brick Breaker Game! This is a classic arcade game where you control a paddle to bounce a ball and break bricks. The game is built using SFML (Simple and Fast Multimedia Library).
+[![GitHub issues](https://img.shields.io/github/issues/hzjadoon/Brick-Breaker-Game-)](https://github.com/hzjadoon/Brick-Breaker-Game-/issues)
+[![GitHub forks](https://img.shields.io/github/forks/hzjadoon/Brick-Breaker-Game-)](https://github.com/hzjadoon/Brick-Breaker-Game-/network)
+[![GitHub stars](https://img.shields.io/github/stars/hzjadoon/Brick-Breaker-Game-)](https://github.com/hzjadoon/Brick-Breaker-Game-/stargazers)
+[![GitHub license](https://img.shields.io/github/license/hzjadoon/Brick-Breaker-Game-)](https://github.com/hzjadoon/Brick-Breaker-Game-/blob/main/LICENSE)
+[![Follow on GitHub](https://img.shields.io/github/followers/hzjadoon?label=Follow&style=social)](https://github.com/hzjadoon)
+
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Controls](#controls)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Object-Oriented Programming Concepts](#object-oriented-programming-concepts)
+- [Algorithm](#algorithm)
+- [Game Logic](#game-logic)
+- [Flowchart](#flowchart)
+- [Contact](#contact)
+
+## Description
+Welcome to the Brick Breaker Game repository! This project is a classic arcade game built using SFML (Simple and Fast Multimedia Library) in C++. The game involves breaking bricks using a paddle and a bouncing ball.
 
 ## Features
 
@@ -11,11 +31,35 @@ Welcome to the Brick Breaker Game! This is a classic arcade game where you contr
 - Main menu with options to start the game, view credits, and quit.
 - Game over and level completion conditions.
 
-## Game Controls
+## Controls
 
 - **Left Arrow Key**: Move paddle left.
 - **Right Arrow Key**: Move paddle right.
 - **Escape Key**: Return to the main menu.
+
+## Installation
+To run the Brick Breaker Game, follow these steps:
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/hzjadoon/Brick-Breaker-Game-.git
+    cd Brick-Breaker-Game-
+    ```
+2. **Compile the game**
+    Ensure you have SFML installed. You can compile the game using the following command:
+    ```bash
+    g++ -o brick_breaker main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+    ```
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements, please follow these steps:
+1. **Fork the repository.**
+2. **Create a new branch** (`git checkout -b feature-branch`).
+3. **Commit your changes** (`git commit -am 'Add new feature'`).
+4. **Push to the branch** (`git push origin feature-branch`).
+5. **Create a new Pull Request.**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Object-Oriented Programming Concepts
 
@@ -146,3 +190,10 @@ The game is designed using several OOP principles:
 +-------------------+
 | Return to Menu    |
 +-------------------+
+
+ ```
+
+## Contact
+For any inquiries or feedback, feel free to reach out:
+- **GitHub**: [hzjadoon](https://github.com/hzjadoon)
+- **Email**: [hassanzaibjadoon2004@gmail.com](mailto:hassanzaibjadoon2004@gmail.com)
