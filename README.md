@@ -86,7 +86,9 @@ The game is designed using several OOP principles:
 4. **Else if "Quit Game" selected:**
     - Exit game
 
+## Flowchart
 
+plaintext
 
               +--------------------+
               |       Start        |
