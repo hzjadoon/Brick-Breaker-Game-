@@ -49,37 +49,42 @@ The game is designed using several OOP principles:
 6. Display game over or level completion screen as appropriate.
 7. Handle "About Us" and "Quit Game" options in the main menu.
 
-## Pseudo Code
-Initialize game window
-Load textures, sounds, and fonts
-Create paddle, ball, and bricks
+# Game Logic
 
-While game is running
-    If in main menu
-        Display menu
-        Handle menu input
-        If start game selected
-            Enter game loop
-    Else if in game loop
-        Handle paddle movement input
-        Update ball position
-        Check for ball collision with walls
-        Check for ball collision with paddle
-        Check for ball collision with bricks
-        If all bricks destroyed
-            Display level complete message
-            Break game loop
-        If ball falls below paddle
-            Display game over message
-            Break game loop
-        Render game objects
-    Else if in about us screen
-        Display about us information
-        Handle back to menu input
-    Else if quit game selected
-        Exit game
+## Initialization
+- Initialize game window
+- Load textures, sounds, and fonts
+- Create paddle, ball, and bricks
 
+## Main Game Loop
 
+### While game is running:
+1. **If in main menu:**
+    - Display menu
+    - Handle menu input
+    - If "Start Game" selected:
+        - Enter game loop
+
+2. **Else if in game loop:**
+    - Handle paddle movement input
+    - Update ball position
+    - Check for ball collision with walls
+    - Check for ball collision with paddle
+    - Check for ball collision with bricks
+    - If all bricks are destroyed:
+        - Display level complete message
+        - Break game loop
+    - If ball falls below paddle:
+        - Display game over message
+        - Break game loop
+    - Render game objects
+
+3. **Else if in "About Us" screen:**
+    - Display "About Us" information
+    - Handle "Back to Menu" input
+
+4. **Else if "Quit Game" selected:**
+    - Exit game
 
 
 
@@ -87,7 +92,7 @@ While game is running
 
 ```plaintext
            +--------------------+
-           | Start              |
+           |         Start       |
            +--------------------+
                     |
                     v
@@ -111,7 +116,7 @@ While game is running
          |                     |
          v                     v
 +-------------------+  +-----------------+
-| Start Game        |  | Show About Us   |
+|     Start Game    |  |  Show About Us  |
 +-------------------+  +-----------------+
          |                     |
          v                     v
